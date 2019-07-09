@@ -5,6 +5,7 @@ MAINTAINER Yongbin Gu <@gyb1325>
 # Install wget and build-essential
 RUN apt-get update && apt-get install -y \
   build-essential \
+  module-init-tools \
   wget
 
 # Change to the /tmp directory
